@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg , #160349 , #0f0230);;
+    padding: 10px;
+}
+.box{
+    width: 100%;
+    max-width: 560px;
+    background: transparent;
+    margin: 150px auto 0;
+    padding: 40px 30px 90px;
+    
+    border-radius: 10px;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+
+}
+p{
+    color: rgb(13, 153, 13);
+    font-size: 40px;
+    margin-bottom: 5px;
+    font-weight: 500;   
+    
+}
+hr{
+    margin-bottom: 20px;
+    padding: 2px;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+    background: rgb(13, 153, 13);
+    width: 338px;
+}
+.row{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+input{
+    padding: 20px;
+    flex: 1;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+.row img{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    right: 38px;
+    cursor: pointer;
+
+}
+
+button{
+    background: rgb(26, 102, 26);
+    padding: 15px ;
+    outline: none;
+    border: none;
+    color: wheat;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+button img{
+    height: 25px;
+    width: 15px;
+    margin-right:5px ;
+}
